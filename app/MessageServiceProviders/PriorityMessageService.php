@@ -11,7 +11,7 @@ use Config;
  */
 class PriorityMessageService extends AbstractMessageService
 {
-    static $priority = 0;
+    static $priority = 1;
 
     /**
      * @return AbstractMessageService
