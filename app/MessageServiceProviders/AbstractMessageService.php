@@ -13,7 +13,16 @@ use Config;
  */
 abstract class AbstractMessageService
 {
+    /**
+     * @return mixed
+     */
     protected abstract function getClient();
+
+    /**
+     * @param string $to
+     * @param string $message
+     * @return mixed
+     */
     public abstract function send(string $to, string $message);
 
 
