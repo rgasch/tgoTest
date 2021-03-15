@@ -56,3 +56,7 @@ it will retrieve additional service providers based on increasing priorities unt
 sent. This job is currently hardcoded to exit after 3 priority-based send-attempts. 
 - *SentMessages*: displays the last 10 sent messages as retrieved from the database
 - *TestMessage*: attempts to send a message using a hardcoded client (used for dev-testing)
+
+
+### Localization
+The system is prepared to use localized messages, currently only english is implemented for a single (hello world) message.
